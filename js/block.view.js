@@ -1,0 +1,1 @@
+(function($){var $animatedBlock=$('[data-scroll-class]');$animatedBlock.scrollClass();$animatedBlock.on("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){$(this).addClass('ab-animation-end')})})(jQuery)
